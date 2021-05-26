@@ -1,8 +1,6 @@
 package com.example.lidingram;
 
-
 import android.content.Context;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -26,7 +24,6 @@ public class FileHelper {
         }
 
     }
-
 
     public static ArrayList<String> readData(Context context){
         ArrayList<String> itemlist =null;
